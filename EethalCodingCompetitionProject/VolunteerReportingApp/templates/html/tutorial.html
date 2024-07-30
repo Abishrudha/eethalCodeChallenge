@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dropdown Form Example</title>
+</head>
+<body>
+    <h1>Dropdown Form Example</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</submit>
+    </form>
+</body>
+</html>
