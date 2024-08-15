@@ -15,14 +15,14 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-#GOOGLE_API_CREDENTIALS = os.path.join(BASE_DIR, r"C:\Users\abish\OneDrive\Documents\GitHub\EethalCodingComp\EethalCodingCompetitionProject\VolunteerReportingApp\eethal-coding-comp-abi-bb19656183bf.json")
+GOOGLE_API_CREDENTIALS = os.path.join(BASE_DIR, r"https://github.com/Abishrudha/eethalCodeChallenge/blob/main/EethalCodingCompetitionProject/VolunteerReportingApp/eethal-coding-comp-abi-bb19656183bf.json")
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'django-insecure-i8ht^-n+=&i1mr1@yc6$zw_#w4o^hq&m%#6=6&^6rl29n4xu7a'
+SECRET_KEY = 'django-insecure-i8ht^-n+=&i1mr1@yc6$zw_#w4o^hq&m%#6=6&^6rl29n4xu7a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
